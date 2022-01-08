@@ -1,5 +1,7 @@
 # Crypto Ticker
 
+![Banner](./src/assets/img/Promo.png)
+
 ### What is Crypto Ticker?
 
 Crypto Ticker is a very lightweight Chrome extension that allows you to keep track of cryptocurrency prices.
