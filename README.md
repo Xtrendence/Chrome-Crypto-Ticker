@@ -1,6 +1,6 @@
 # Crypto Ticker
 
-![Banner](./src/assets/img/Promo.png)
+![Banner](./src/assets/img/Banner.png)
 
 ### What is Crypto Ticker?
 
