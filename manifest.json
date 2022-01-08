@@ -1,0 +1,13 @@
+{
+	"name": "Crypto Ticker",
+	"description": "A lightweight extension to keep track of cryptocurrency prices.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"background": {
+		"service_worker": "src/assets/js/background.js"
+	},
+	"action": {
+		"default_popup": "src/popup.html"
+	},
+	"permissions": ["storage"]
+}
