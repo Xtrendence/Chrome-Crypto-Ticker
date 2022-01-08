@@ -50,6 +50,8 @@ buttonRemoveCoin.addEventListener("click", async () => {
 	let symbol = inputCoin.value;
 
 	if(!empty(symbol)) {
+		symbol = symbol.toLowerCase();
+		
 		let coin = await getCoin({ symbol:symbol });
 		let data = await getStorage();
 
@@ -71,6 +73,8 @@ buttonAddCoin.addEventListener("click", async () => {
 	let symbol = inputCoin.value;
 
 	if(!empty(symbol)) {
+		symbol = symbol.toLowerCase();
+
 		let coin = await getCoin({ symbol:symbol });
 		let data = await getStorage();
 
